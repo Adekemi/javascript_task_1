@@ -8,20 +8,25 @@
 <body>
     <h2>JavaScript Task 1</h2>
         <p>Displaying my Information via JavaScript:</p>
-        <p id="demo"></p>
     <script>
         var myName = "Adekemi Borode";
         var myCourses = ["HTML-CSS-Javascript", "NodeJS", "Design"];
         document.write("My Name is: " + myName + " and my courses are: " + myCourses);
                 
-        
+    </script>
+    <br>
+    <br>
+    <script>
         // 1. If the number of courses you are doing is an odd number, find and display all odd numbers from 1-200 (inclusive)
-        for (var i = 0; i < 200; i++){
-                if (i%2 !== 0) {
-                        console.log(i);
+        var text = "";
+            var i;
+            for (i = 0; i < 200; i++) {
+                if (i%2 !== 0){
+                     text += "The number is " + i + "<br>";
                 }
-              }
-
+             
+            }
+            document.write(text);
     </script>
     
 
